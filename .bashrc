@@ -122,9 +122,6 @@ if [ -f ~/.bashrc_root ]; then
     source ~/.bashrc_root
 fi
 
-git config --global user.name "Lastname, Firstname"
-git config --global user.email "yourlogin@chirontech.com"
-
 export PATH=$PATH:/var/www/moodle-bin/
 #export PS1='(rdev)'$PS1
 alias vi=vim
